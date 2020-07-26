@@ -1,6 +1,7 @@
 # Django-Quickstarter
 
-
+[![Updates](https://pyup.io/repos/github/sirrobot01/django-quickstarter/shield.svg)](https://pyup.io/repos/github/sirrobot01/django-quickstarter/)
+[![Python 3](https://pyup.io/repos/github/sirrobot01/django-quickstarter/python-3-shield.svg)](https://pyup.io/repos/github/sirrobot01/django-quickstarter/)
 
 ## What's included
 
