@@ -44,3 +44,21 @@ python manage.py migrate
 
 and you are good to go!!
 
+## Endpoints
+
+### Authentications
+
+- Register `POST` `/auth/register/`
+- Login `POST` `/auth/login/`
+- Refresh JWT Token `POST` `/auth/refresh/`
+- Verify JWT Token `POST` `/auth/verify/`
+
+```
+Note: Check /swagger/ or /redoc/ for other endpoints
+```
+
+### Documentations
+
+- Swagger `GET` `/swagger`
+- Redoc `GET` `/redoc/`
+
