@@ -1,6 +1,7 @@
 # Django-Quickstarter
 
-
+[![Updates](https://pyup.io/repos/github/sirrobot01/django-quickstarter/shield.svg)](https://pyup.io/repos/github/sirrobot01/django-quickstarter/)
+[![Python 3](https://pyup.io/repos/github/sirrobot01/django-quickstarter/python-3-shield.svg)](https://pyup.io/repos/github/sirrobot01/django-quickstarter/)
 
 ## What's included
 
@@ -43,6 +44,49 @@ python manage.py migrate
 ```
 
 and you are good to go!!
+
+### SSL Issues on MacOS
+
+You might encounter an issue starting the project. You have two options
+
+#### Option 1
+
+- Clone this repo: 
+```git clone https://github.com/sirrobot01/django-quickstarter.git ```
+```bash
+mkdir newproject && cd $_
+python3 -m venv venv
+source venv/bin/activate
+pip install django
+```
+
+Then install the template:
+
+```bash
+django-admin startproject --template django-quickstarter newproject .
+```
+
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+#### Option 2
+
+- Click on "Use this template"
+- Create a new repo off this on your account
+- Pull/Clone to your local computer
+- Create a virtualenv
+- ```pip install -r requirements.txt```
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
 
 ## Endpoints
 
