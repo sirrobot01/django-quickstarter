@@ -76,6 +76,10 @@ pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 ```
+
+
+
+
 #### Option 2
 
 - Click on "Use this template"
@@ -90,7 +94,7 @@ python manage.py migrate
 
 ## Endpoints
 
-### Authentications
+##### Authentications
 
 - Register `POST` `/auth/register/`
 - Login `POST` `/auth/login/`
@@ -101,8 +105,13 @@ python manage.py migrate
 Note: Check /swagger/ or /redoc/ for other endpoints
 ```
 
-### Documentations
+##### Documentations
 
 - Swagger `GET` `/swagger`
 - Redoc `GET` `/redoc/`
 
+## Running Tests
+
+```bash
+python manage.py test
+```
